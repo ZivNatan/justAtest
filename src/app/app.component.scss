@@ -1,0 +1,55 @@
+.my-app {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  .header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    align-items: center;
+  }
+  .body {
+    display: flex;
+    color: black;
+    width: 100%;
+    height: 100%;
+    //   height: calc(100% - 250px);
+  }
+  .main {
+    padding: 25px 50px;
+    width: 100%;
+    display: flex;
+  }
+  .left-panel {
+    width: 250px;
+    background-color: black;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer {
+    display: flex;
+    height: 200px;
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+  .list-item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    border-left: none;
+    border-right: none;
+  }
+  .list-item.first {
+    border-top: 1px solid gray;
+  }
+  .list-item:hover {
+    background-color: #0f110f;
+  }
+}
